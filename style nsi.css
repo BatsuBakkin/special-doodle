@@ -22,7 +22,7 @@ header {
 span {
     font-size: 30px;
     text-align: left;
-    font-family: Comic Sans MS;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: white;
     position: relative;
@@ -49,7 +49,7 @@ a.bouton {
     border: 2px solid #2a337b;
     text-align: center;
     background: white;
-    font-family: Trebuchet MS;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: #101752;
     margin: 10px 0px 10px 10px;
@@ -77,7 +77,7 @@ a.bouton:hover {
 }
 
 .titre {
-    font-family: Trebuchet MS;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 125%;
     text-align: left;
     font-weight: bold;
@@ -169,7 +169,7 @@ header:hover button {
 }
 
 h1 {
-    font-family: Trebuchet MS;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-stretch: condensed;
     color: #101752;
@@ -179,9 +179,9 @@ h1 {
 }
 
 .chapo {
-    font-family: Bahnschrift;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: light;
     color: black;
     position: relative;
     margin: auto;
@@ -197,8 +197,8 @@ h1 {
 }
 
 .corps {
-    font-family: Bahnschrift;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-    font-weight: lighter;
+    font-weight: light;
     line-height: 200%;
 }

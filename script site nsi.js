@@ -19,8 +19,8 @@ document.querySelectorAll(".CarteInfo").forEach(function(element) {
     });
 });
 
-document.getElementsById("logo").addEventListener("click", function() {
-    window.location.href = "site nsi.html";
+document.getElementsByClassName("logo").addEventListener("click", function() {
+    window.location.href = "index.html";
 });
 
 
