@@ -20,10 +20,17 @@ header {
     top: 10px;
     display: flex;
     align-items: stretch;
+    justify-content: space-evenly;
     z-index: 2;
     transition: all 0.2s ease-out;
 }
 
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+
+}
 span {
     font-size: 30px;
     text-align: left;
@@ -35,14 +42,14 @@ span {
 }
 
 .boutonsMenu {
-    position: relative;
+    position: static;
     margin: auto;
-    margin-right: 10px;
     text-align: right;
     display: flex;
     min-height: 100%;
     flex-direction: row;
     flex-wrap: wrap-reverse;
+    justify-content: flex-end;
     z-index: 4;
 }
 
