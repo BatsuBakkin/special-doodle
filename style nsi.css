@@ -1,11 +1,16 @@
 body {
     background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 
 header {
     border-radius: 15px;
     width: 100%;
-    max-height: 150px;
+    max-height: 20%;
     margin: auto;
     padding: 15px;
     border-bottom: 10px;
@@ -123,14 +128,6 @@ a.bouton:hover {
     right: 15px;
 }
 
-body {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
-
 header:hover {
     background: white;
     box-shadow: 12px 12px 27px #cacaca, -12px -12px 27px #f6f6f6;
@@ -152,7 +149,7 @@ header:hover button {
 .info {
     position: relative;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 1vw;
     top: 2vw;
     width: 90%;
     max-width: 800px;

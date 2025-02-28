@@ -13,15 +13,13 @@ function rediriger(article) {
 document.querySelectorAll(".CarteInfo").forEach(function(element) {
     element.addEventListener("click", function() {
         let nomArticle = element.id;  // Récupère l'id de la div cliquée
-        if (repertoire[id]) {
+        if (repertoire[nomArticle]) {
             rediriger(nomArticle);
         }
     });
 });
 
-document.getElementsByClassName("logo").addEventListener("click", function() {
+// Sélectionne la première div avec la classe "logo" et lui assigne un événement "click"
+document.querySelector(".logo").addEventListener("click", function() {
     window.location.href = "index.html";
 });
-
-
-``
