@@ -18,6 +18,8 @@ document.querySelectorAll(".CarteInfo").forEach(function(element) {
     });
 });
 
-document.querySelector(".logo").addEventListener("click", function() {
+document.querySelector("logo").addEventListener("click", function() {
     window.location.href = "index.html";
+
+
 });
