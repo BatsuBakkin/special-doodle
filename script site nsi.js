@@ -9,17 +9,15 @@ function rediriger(article) {
     window.location.href = repertoire[article];
 }
 
-// Sélectionne toutes les divs avec la classe "CarteInfo" et leur assigne un événement "click"
 document.querySelectorAll(".CarteInfo").forEach(function(element) {
     element.addEventListener("click", function() {
-        let nomArticle = element.id;  // Récupère l'id de la div cliquée
+        let nomArticle = element.id;
         if (repertoire[nomArticle]) {
             rediriger(nomArticle);
         }
     });
 });
 
-// Sélectionne la première div avec la classe "logo" et lui assigne un événement "click"
 document.querySelector(".logo").addEventListener("click", function() {
     window.location.href = "index.html";
 });
