@@ -175,7 +175,6 @@ header:hover button {
 .retour {
     color: #ba0000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: all 0.3s ease-out;
     z-scale: 6;
 }
 
