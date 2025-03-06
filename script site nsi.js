@@ -23,3 +23,5 @@ document.querySelector("logo").addEventListener("click", function() {
 
 
 });
+
+document.getElementByClassName("retour").addEventListener("click", history.back() )
