@@ -24,5 +24,5 @@ document.querySelector(".logo").addEventListener("click", function() {
 
 });
 
-document.querySelector(".retour").addEventListener("click", function {
+document.querySelector(".retour").addEventListener("click", function() {
     history.back() })
