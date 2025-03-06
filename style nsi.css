@@ -172,6 +172,16 @@ header:hover button {
     border: 2px solid white;
 }
 
+.retour {
+    color: #ba0000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.3s ease-out;
+    z-scale: 6;
+}
+
+.retour:hover {
+    text-decoration: underline red;
+}
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
